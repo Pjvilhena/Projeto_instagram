@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagrama-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100%;
+
+}
+
+.imagem-instagrama{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.imagem-instagrama img {
+    width: 50rem;
+}
+
+.photo-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-logo img{
+    width: 25rem;
+}
+
+.profile-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.profile-photo img{
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 110%;
+    margin: 2cm;
+    border: 1px solid lightgrey;
+}
+
+.group:nth-child(1){
+    min-height: 19rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+
+.login{
+    background-color: lightskyblue;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 0.4cm;
+
+}
+
+.logout{
+    color: lightskyblue;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.cadastro{
+    color: gray;
+}
+
+.link-blue{
+    color: blue;
+}
+
+.blue{
+    color: blue;
+}
+
+.group-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 110%;
+    margin: 2cm;
+}
+
+.ios img{
+    width: 15rem;
+}  
+
+.android img{
+    width: 14rem;
+}
+
+.baixar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
